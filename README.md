@@ -8,3 +8,9 @@
 curl https://raw.githubusercontent.com/VSF1/rpi-wifi-ap/master/configure | bash -s -- -a MyAP myappass -c WifiSSID wifipass
 
 ```
+## FIX
+In case of 
+```
+sudo systemctl unmask hostapd
+
+```
